@@ -13,7 +13,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-var mongoDB = 'mongodb://localhost:27017/db01';
+var mongoDB = 'mongodb+srv://marco:prueba1@cluster0.nxedejy.mongodb.net/db01?';
 mongoose.connect(mongoDB, {
   useNewUrlParser: true,
   useUnifiedTopology: true
